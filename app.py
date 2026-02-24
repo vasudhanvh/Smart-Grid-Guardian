@@ -82,14 +82,14 @@ KNOWN_DEVICES = sorted([
 
 SAFE_RANGES = {
     'EMPTY':              (0.0, 8.0),    
-    'PHONE':              (4.0, 20.0),    
-    '1 LIGHT':            (35.0, 42.0),   
-    'PHONE+LIGHT':        (40.0, 50.0),   
-    'LAPTOP':             (20.0, 40.0),   
-    'LAPTOP+PHONE':       (25.0, 60.0),
+    'PHONE':              (5.0, 28.0),    
+    '1 LIGHT':            (40.0, 45.5),   
+    'PHONE+LIGHT':        (45.0, 68.0),   
+    'LAPTOP':             (15.0, 47.0),   
+    'LAPTOP+PHONE':       (27.0, 75.0),
     '2 LIGHTS':           (75.0, 86.0),   
-    'LIGHT+LAPTOP':       (70.0, 80.0),  
-    'LIGHT+LAPTOP+PHONE': (80.0, 90.0)   
+    'LIGHT+LAPTOP':       (50.0, 86.0),  
+    'LIGHT+LAPTOP+PHONE': (60.0, 109.0)   
 }
 
 if 'live_log' not in st.session_state:
