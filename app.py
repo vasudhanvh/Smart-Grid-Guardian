@@ -84,12 +84,12 @@ SAFE_RANGES = {
     'EMPTY':              (0.0, 0.0),    
     'PHONE':              (5.0, 28.0),    
     '1 LIGHT':            (34.0, 45.5),   
-    'PHONE+LIGHT':        (34.0, 68.0),   
-    'LAPTOP':             (15.0, 47.0),   
+    'PHONE+LIGHT':        (5.0, 68.0),   
+    'LAPTOP':             (21.0, 47.0),   
     'LAPTOP+PHONE':       (27.0, 75.0),
     '2 LIGHTS':           (34.0, 86.0),   
-    'LIGHT+LAPTOP':       (34.0, 86.0),  
-    'LIGHT+LAPTOP+PHONE': (0.34, 109.0)   
+    'LIGHT+LAPTOP':       (21.0, 86.0),  
+    'LIGHT+LAPTOP+PHONE': (5.0, 109.0)   
 }
 
 if 'live_log' not in st.session_state:
