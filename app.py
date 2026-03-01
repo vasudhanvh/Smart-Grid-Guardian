@@ -83,8 +83,8 @@ KNOWN_DEVICES = sorted([
 SAFE_RANGES = {
     'EMPTY':              (0.0, 0.0),    
     'PHONE':              (5.0, 28.0),    
-    '1 LIGHT':            (40.0, 45.5),   
-    'PHONE+LIGHT':        (45.0, 68.0),   
+    '1 LIGHT':            (34.0, 45.5),   
+    'PHONE+LIGHT':        (34.0, 68.0),   
     'LAPTOP':             (15.0, 47.0),   
     'LAPTOP+PHONE':       (27.0, 75.0),
     '2 LIGHTS':           (75.0, 86.0),   
